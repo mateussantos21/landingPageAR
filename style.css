@@ -1,0 +1,239 @@
+/* style.css */
+/* código css para landing page AgroRenda*/
+/*
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2vw;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4vw;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6vw;
+  }
+}
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+
+body{
+    text-align: center;
+    background: rgb(233, 243, 235);
+    background-size: cover;
+    font-family: 'Comfortaa', cursive;
+}
+/*
+.btn-primary {
+    line-height: 40px;
+    color: rgb(6, 31, 2);
+    background-color: #eeff00;
+    border-radius: 10px;
+}
+  
+.btn-primary:hover {
+    line-height: 40px;
+    color: rgb(6, 31, 2);
+    background-color: #eeff00c0;
+    border-radius: 10px;
+}
+*/
+/*tagline*/
+h1 { 
+    font-size: 25px;
+    color: #e2e2e2;
+    padding-top: 1%;
+    padding-bottom: 4%;
+}
+
+
+/*titulos seção 1*/
+h2 {
+    color: rgb(250, 250, 250);
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace; 
+}
+#frases {
+    color: rgb(250, 250, 250);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;  
+}
+
+
+/*titulos seções 2, 3 e 4*/
+h3 {
+    margin-top: 45pt;
+    margin-bottom: 15pt;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: rgb(7, 75, 37);
+    font-size: 28px;
+}
+
+/*subtitulos seções 2, 3 e 4*/
+h4 {
+    padding-right: 2%;
+    padding-left: 2%;
+    color: rgb(47, 58, 52);
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(0, 133, 29);
+    line-height: 20px;
+    padding: 0.5%;
+}
+a:hover{
+    text-decoration: none;
+    color: aliceblue;
+    line-height: 20px;
+    padding: 0.5%;
+}
+
+
+/*textos*/
+p {
+    text-align: justify;
+    color: rgb(19, 19, 19);
+}
+
+/*mensagem de sucesso form*/
+h6 {
+    text-align: center;
+    font-size: 24px;
+    color: #00ff22;
+    padding: 10px;
+}
+
+/* sec 1 */
+    #sec1{
+        align-content: center;
+        padding: 1%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        background-image: url(images/back1.jpg);
+        background-size: cover;
+    }  
+
+    #sec1 img{
+        height: auto;
+        margin-top: 80px;
+    }
+
+/* sec 2 */
+    .icon {
+        padding: 2%;
+    }
+
+    .icon img {
+        padding-bottom: 3%;
+    }
+
+    .icon h5 {
+        color: rgb(7, 75, 37);
+        font-size: 1.5em;
+    }
+
+    .icon p {
+        font-size: 1em;
+    }
+
+/* sec3 */
+    #sec3 img {
+            max-width: 95%;
+    }
+
+    #chart {
+        text-align: center;
+    }
+
+    #chart script {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+/* sec 4 */
+    .membro {
+        padding: 2%;
+    }
+
+    .membro img {
+        padding-bottom: 3%;
+    }
+
+    .membro h5 {
+        color: rgb(47, 58, 52);
+        font-size: 1.3em;
+    }
+
+    .membro h6 {
+        color: rgb(19, 26, 22);
+        font-size: 1em;
+    }
+
+    .membro p {
+        text-align: justify;
+        color: rgb(29, 29, 29);
+        font-size: 0.9em;
+    }
+
+    .membro img:hover {
+        opacity: 0.6;
+    }
+
+    .parceiro {
+        margin: 5%;
+    }
+
+    .parceiro img:hover {
+        opacity: 0.6;
+    }
+
+/* sec 5 */
+    #sec5 {
+        background-color: rgb(44, 44, 44);
+        background-size: cover;
+    }
+
+    #sec5 h1 { 
+        font-size: 22px;
+        color: rgb(226, 226, 226);
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    #sec5 img {
+        margin-top: 5%;
+        margin-bottom: 1%;
+    }
+
+    .contato h6{
+        color: rgb(238, 238, 238);
+        font-size: 14px;
+        padding: 2%;
+    }
+
+    #sec5 p {
+        text-align: center;
+        line-height: 30px;
+        font-family: sans-serif;
+        color: rgb(211, 211, 211);
+    }
